@@ -18,13 +18,13 @@ impl Theme {
     pub const CUR_LINE_BG: (u8, u8, u8) = (40, 40, 40);
 
     // Syntax (Dark+)
-    pub const KEYWORD: (u8, u8, u8) = (86, 156, 214);
-    pub const TYPE: (u8, u8, u8) = (78, 201, 176);
-    pub const FUNCTION: (u8, u8, u8) = (220, 220, 170);
-    pub const STRING: (u8, u8, u8) = (206, 145, 120);
-    pub const NUMBER: (u8, u8, u8) = (181, 206, 168);
-    pub const COMMENT: (u8, u8, u8) = (106, 153, 85);
-    pub const IDENTIFIER: (u8, u8, u8) = (156, 220, 254);
+    pub const KEYWORD: (u8, u8, u8) = (86, 156, 214);      // blue
+    pub const TYPE: (u8, u8, u8) = (78, 201, 176);         // teal
+    pub const FUNCTION: (u8, u8, u8) = (220, 220, 170);   // yellow
+    pub const STRING: (u8, u8, u8) = (206, 145, 120);     // orange
+    pub const NUMBER: (u8, u8, u8) = (181, 206, 168);     // light green
+    pub const COMMENT: (u8, u8, u8) = (106, 153, 85);     // green
+    pub const IDENTIFIER: (u8, u8, u8) = (156, 220, 254); // light blue
     pub const FIELD: (u8, u8, u8) = (156, 220, 254);
     pub const ATTRIBUTE: (u8, u8, u8) = (156, 220, 254);
     pub const PUNCTUATION: (u8, u8, u8) = (212, 212, 212);

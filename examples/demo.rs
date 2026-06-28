@@ -1,4 +1,4 @@
-//! Demo file for tree-sitter syntax colors.
+x//! Demo file for tree-sitter syntax colors.
 use std::collections::HashMap;
 
 /// Returns a greeting.
