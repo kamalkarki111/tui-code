@@ -1,0 +1,22 @@
+[package]
+name = "tui-code"
+version = "0.1.0"
+edition = "2021"
+description = "VS Code-like terminal file viewer and editor with tree-sitter highlighting"
+license = "MIT"
+readme = "README.md"
+
+[[bin]]
+name = "tui-code"
+path = "src/main.rs"
+
+[dependencies]
+tree-sitter = "0.24"
+tree-sitter-rust = "0.23"
+tree-sitter-python = "0.23"
+tree-sitter-javascript = "0.23"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
